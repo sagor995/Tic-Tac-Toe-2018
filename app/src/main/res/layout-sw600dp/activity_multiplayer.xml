@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.agd.sa.tictactoe2018.MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:background="@drawable/button_style2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/playerOneImage"
+                android:src="@drawable/boy"
+                style="@style/main_profile_image"/>
+
+            <TextView
+                android:textSize="40sp"
+                android:padding="3dp"
+                android:id="@+id/playerOneName"
+                android:text="@string/player_name1"
+                style="@style/main_profile_name"
+                 />
+
+            <TextView
+
+                android:textSize="40sp"
+                android:id="@+id/playerOnePoint"
+                android:text="@string/user_point"
+                style="@style/main_profile_name"
+                 />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:background="@drawable/button_style5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:visibility="invisible"
+                android:textAlignment="center"
+                android:background="@drawable/button_style2"
+                android:id="@+id/levelCounter"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/vsImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/vs" />
+            <TextView
+                android:visibility="invisible"
+                android:textSize="20sp"
+                android:layout_alignParentBottom="true"
+                android:text="e"
+                android:textColor="#000"
+                android:id="@+id/wNer"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                />
+
+            <TextView
+
+                android:layout_alignParentBottom="true"
+                android:id="@+id/drawResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:text="@string/draw"
+                android:textColor="#000"
+                android:textSize="50sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/playerTwoImage"
+                android:src="@drawable/girl"
+                style="@style/main_profile_image"/>
+
+            <TextView
+                android:textSize="40sp"
+                android:id="@+id/playerTwoName"
+                android:text="@string/player_name2"
+                style="@style/main_profile_name"/>
+
+            <TextView
+                android:textSize="40sp"
+                android:id="@+id/playerTwoPoint"
+                android:text="@string/user_point"
+                style="@style/main_profile_name"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#eaeaea"
+        android:orientation="vertical"
+        android:layout_weight="4.55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            >
+            <Button
+                android:textSize="90sp"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/firstTicTac"
+                android:layout_marginRight="5dp"
+                style="@style/main_tictacs"
+                />
+            <Button
+                android:textSize="90sp"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/secondTicTac"
+                android:layout_marginRight="5dp"
+                style="@style/main_tictacs"
+                />
+            <Button
+                android:textSize="90sp"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/thirdTicTac"
+                style="@style/main_tictacs"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            >
+
+            <Button
+                android:textSize="90sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/fourthTicTac"
+                style="@style/main_tictacs"
+                android:layout_height="match_parent"
+                />
+
+            <Button
+                android:textSize="90sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/fifthTicTac"
+                style="@style/main_tictacs"
+                />
+
+            <Button
+                android:textSize="90sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sixthTicTac"
+                style="@style/main_tictacs"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            >
+            <Button
+                android:textSize="90sp"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/seventhTicTac"
+                android:layout_marginRight="5dp"
+                style="@style/main_tictacs"
+                />
+            <Button
+                android:textSize="90sp"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/eightTicTac"
+                android:layout_marginRight="5dp"
+                style="@style/main_tictacs" />
+            <Button
+                android:textSize="90sp"
+                android:layout_margin="5dp"
+                android:layout_height="match_parent"
+                android:onClick="tictacClicked"
+                android:id="@+id/nineTicTac"
+                style="@style/main_tictacs"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/button_style2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_style5"
+                android:text="00:02:00"
+                android:visibility="invisible"
+                android:fontFamily="serif"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/exitButton"
+                android:textColor="#000"
+                android:textSize="40sp"
+                android:onClick="exitMethod"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_style5"
+                android:fontFamily="serif"
+                android:text="@string/exit"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.2"/>
+        </LinearLayout>
+</LinearLayout>

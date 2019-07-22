@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <!--activity_menu-->
+    <style name="menu_buttons">
+            <item name="android:layout_marginTop">4dp</item>
+            <item name="android:textSize">25sp</item>
+            <item name="android:textColor">#fff</item>
+            <item name="android:layout_weight">1</item>
+            <item name="android:background">@drawable/button_style4</item>
+            <item name="android:layout_width">match_parent</item>
+             <item name="android:layout_height">0dp</item>
+    </style>
+    <!--activity_selection-->
+    <style name="selection_radioButtons1">
+        <item name="android:background">@drawable/button_style6</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_margin">10dp</item>
+
+        <item name="android:layout_alignParentBottom">true</item>
+       <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="selection_radioButtons">
+       <item name="android:textColor">#fff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">@drawable/change_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="selection_radioButtons2">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">@drawable/change_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+
+
+</resources>

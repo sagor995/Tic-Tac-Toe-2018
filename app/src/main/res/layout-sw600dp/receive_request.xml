@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/receiveText1"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/button_style4"
+        android:text="Challenge Received From:"
+        android:textSize="40sp"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+
+        android:text="Request Receive By"
+        android:id="@+id/receiveText2"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/button_style4"
+        android:textSize="40sp"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/receiveOk"
+            android:padding="10dp"
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="@string/accept"
+            android:textSize="40dp"/>
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/receiveCancel"
+            android:padding="10dp"
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="@string/cancel"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

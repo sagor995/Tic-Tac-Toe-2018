@@ -1,0 +1,176 @@
+<resources>
+
+
+    <string name="app_name">TicTacToe 2018</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <!--<string name="banner_ad_unit_id">ca-app-pub-5358264522471884/1281675475</string>
+    <string name="interstitial_ad_ad_unit_id">ca-app-pub-5358264522471884/9898532093</string>-->
+
+
+    <string name="default_webs_client_id">375297008007-1couv2ngbub489dnbm668in4t992t6ab.apps.googleusercontent.com</string>
+    <!--Menu-->
+    <string name="menu_title">TicTacToe\n2018</string>
+    <string name="menu_multiplayer">With Friend</string>
+    <string name="menu_option">Option</string>
+
+
+    <!--<string name="confirm_title">Confirm</string>
+    <string name="confirm_msg">Are you sure?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>-->
+
+    <!-- Offline-->
+    <string name="player_name1">Player 1</string>
+    <string name="player_name2">Player 2</string>
+    <string name="target_point">Targeted Point: </string>
+
+
+    <!--Main-->
+    <string name="symbol_x">X</string>
+    <string name="symbol_o">O</string>
+    <string name="symbol_d">D</string>
+    <string name="user_point">Point : </string>
+    <string name="draw">Draw: </string>
+    <string name="p_name">Player</string>
+    <string name="c_name">Com</string>
+    <string name="type_text">Type</string>
+    <string name="one">1. </string>
+    <string name="two">2. </string>
+    <string name="dash"> - </string>
+
+    <!--Selection-->
+    <string name="game_mode_t">Game Mode</string>
+    <string name="game_mode_1">1 Vs C</string>
+    <string name="enter_point_text">Enter Targeted Point</string>
+    <string name="game_mode_2">1 Vs 1</string>
+    <string name="enter_level_text">Enter Targeted Level</string>
+
+
+    <string name="min_point_text">Minimum 5 point allowed</string>
+    <string name="max_point_text">Maximum 100 points allowed</string>
+    <string name="min_level_text">Maximum 1 level allowed</string>
+    <string name="max_level_text">Maximum 20 level allowed</string>
+
+    <string name="difftype_1">Simple </string>
+    <string name="difftype_2">Complex</string>
+    <string name="Difftype_t">Diffculty Mode</string>
+    <string name="type_t">Type Select</string>
+    <string name="type_1">Time</string>
+    <string name="type_2">Point</string>
+    <string name="type_3">Level</string>
+    <string name="send_text">Send Request?</string>
+    <string name="send_hint">Enter friend email</string>
+    <string name="send">Send</string>
+    <string name="close">Close</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="results">Results</string>
+
+
+    <!--Popular-->
+    <string name="Start">Play</string>
+    <string name="exit">Exit</string>
+    <string name="custome_font2">fonts/tictacfont4.ttf</string>
+    <string name="custome_font3">fonts/tictacfont4.ttf</string>
+    <!--Exit layout-->
+    <string name="exit_title">Are you sure?</string>
+    <string name="exit_yes">Yes</string>
+    <string name="exit_no">No</string>
+
+    <!--Option-->
+    <string name="options_title">Options</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="rate_text">Rate This Game</string>
+    <string name="rate_now">Rate Now</string>
+
+
+    <!--  FirebaseInvite-->
+    <string name="invitation_message">TicTacToe 2018 GamePlay Invitation</string>
+    <string name="invitation_deep_link">http://play.google.com/store/apps/details?id=com.agd.sa.tictactoe2018</string>
+    <string name="invitation_custom_image">android.resource://com.agd.sa.tictactoe2018/drawable/invite</string>
+    <string name="invitation_cta">Install!</string>
+    <string name="invitation_title">TicTacToe 2018 GamePlay Invitation</string>
+
+    <!--multiplayer-->
+    <string name="vaild_email_text">Please use a vaild email Id!!!</string>
+    <string name="check_wifi_text">Please check your wifi internet connection!!!</string>
+    <string name="opponent_quit_text">Opponent has quit the Game! You Win</string>
+
+    <string name="option_help">Option:\n\n
+        To on or off volume
+        Simply press the sound on or off buttons.\n
+        \n
+        \n
+        ..........................................\n
+        \n
+        And If you like this Game.\n
+        Do\'t Forget to rate it on PlayStore.\n
+        To rate it simply click on the button, \'Rate Now\'\n
+        \n
+        To share this Game with your friends simply click on the share icon available on the Menu at left bottom\n
+        \n
+        *Note: \n
+        More updates Coming Soon.\n
+        \n
+
+
+        </string>
+    <string name="multi_help">With Friend:\n
+        \n
+        Its a demo version of Online Play\n \n
+        Features:\n \n
+        1.Online Play.\n\n
+        2.Scores will be added to your profile, available in Menu. No scores for draw.\n
+        If anyone exit The Game will be canceled.\n
+        \n \n
+        To Play with friends just be sure that both of you have open the Game.\n
+        \n
+        One player have to send request To another player by using opponent player email.\n \n
+        \n
+        To Send Request:\n
+        \n
+        Click on \'with friends\',\n
+        and in the box type your other player \'Email Address\'.\n
+        then click on send button. \n\n
+        To receive request Other player have to stay in Menu.\n
+        If your Other player accept the request.\n
+         both of you will be in the game window.\n \n
+         Note: (As its a demo version) You can play the game for only 1 level per request send to your friend.\n
+
+        *More updates and features are coming soon.\n
+         \n
+        \n
+            </string>
+    <string name="start_help">Play:\n\n
+        Here You can play in two modes:\n\n
+        1. 1 vs 1: with another player.\n\n
+        2. 1 vs com: with device.\n
+            with two different types: i)Simple\n
+                                      ii)Complex\n
+        \n\n
+        Also,\n
+        Two Game Types available for playing.\n
+        \n
+        1.Point\n
+        2.Level\n
+        \n
+        Point: In this type you have to play and win the game based on your Targeted Point.\n
+        first select a targeted point and start the game, The player which get the selected point first will be a winner.\n
+        \n
+        Level:Same as Point type but you have to win it based on your selected level.\n\n</string>
+    <string name="info_game">Tic Tac Toe 2018\n
+\n
+AppsDevSA\n
+\n
+\nEmail: sa.agd@outlook.com\n
+        \nFacebook: appsdevsa
+</string>
+
+    <string name="shareText">ShareNow</string>
+</resources>

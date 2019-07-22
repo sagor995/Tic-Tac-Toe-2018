@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/diffTypeText"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_style4"
+        android:layout_weight="0.5"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Please Select a Button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/easyR"
+            android:text="@string/difftype_1"
+            style="@style/selection_radioButtons"/>
+        <Button
+            android:id="@+id/complexR"
+            android:text="@string/difftype_2"
+            style="@style/selection_radioButtons"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/enterText"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/button_style1"
+        android:text="@string/exit_title"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <EditText
+        android:text="5"
+        android:id="@+id/enterValue"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="@drawable/button_style4"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+
+            android:id="@+id/enterGame"
+            android:padding="5dp"
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="@string/exit_yes"
+            android:textSize="30dp"/>
+        <Button
+
+            android:id="@+id/closeEnter"
+            android:padding="5dp"
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="@string/exit_no"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

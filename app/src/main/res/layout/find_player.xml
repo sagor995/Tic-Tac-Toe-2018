@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Space
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:id="@+id/requestText"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/button_style1"
+        android:text="Send Player Request ?"
+
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <EditText
+        android:text=""
+        android:hint="Enter Email Here!"
+        android:textColorHint="#fffefe"
+        android:id="@+id/requestEmail"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/button_style4"
+        android:textSize="30sp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+
+            android:id="@+id/SendRequest"
+            android:padding="5dp"
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="Send"
+            android:textSize="30dp"/>
+        <Button
+
+            android:id="@+id/closeRequest"
+            android:padding="5dp"
+            android:background="@drawable/button_style4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="Later"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- activity_main-->
+    <style name="main_tictacs">
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:onClick">tictacClicked</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:background">@drawable/button_style2</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="main_profile_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_weight">3</item>
+
+    </style>
+    <style name="main_profile_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+</resources>
